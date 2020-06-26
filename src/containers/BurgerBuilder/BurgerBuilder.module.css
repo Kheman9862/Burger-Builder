@@ -1,0 +1,48 @@
+.mainMenu {
+  display: flex;
+  flex-flow: column wrap;
+}
+.burgerMaker {
+  display: block;
+  width: 90%;
+  margin-left: 18px;
+}
+.burgerInfo {
+  display: block;
+}
+
+@media (min-width: 500px) and (min-height: 400px) {
+  .mainMenu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  .burgerMaker {
+    display: inline-flex;
+    width: 80%;
+    margin-left: 158px;
+  }
+  .burgerInfo {
+    display: inline;
+  }
+}
+@media (min-width: 500px) and (min-height: 401px) {
+  .mainMenu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+  .mainMenu {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+
+  .burgerMaker {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
