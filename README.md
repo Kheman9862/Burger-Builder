@@ -7,7 +7,7 @@
 <li>	Redux is used to solve the complexity of this application by managing the state problem.</li>
 <li> Testing is done using jest and Enzyme.</li>
 <li> Deployed using Firebase. </li>
-
 </ol>
+
 ## Link is:
 https://burger-builder-943de.web.app/
